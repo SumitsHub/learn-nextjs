@@ -10,3 +10,13 @@
 - Fullstack React App
   - easily ass backend (server-side) code to your Next/React apps
   - Storing data, getting data, authentication etc. can be added to react projects
+
+## Types of Router in Next
+- Pages Router
+- App Router
+
+### 01-first-app
+- create app using following command
+  - npx create-next-app@latest
+  - kept all option 'No' asked by the command
+  - not using App Router
