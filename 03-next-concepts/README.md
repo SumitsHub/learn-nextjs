@@ -6,7 +6,7 @@
 - Helps SEO optimization
 - 2 forms of Pre-Rendering 
   - Static Generation
-  - Server-side Rendering
+  - Server-side Rendering (SSR) or Server-Side Generation
 
 #### Static Generation with getStaticProps
 - NOTE -> in React,by default basic HTML file containing div with id 'root' gets generated without any data in it
