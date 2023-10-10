@@ -69,3 +69,9 @@ export async function getStaticProps() {
   };
 }
 ```
+
+
+### Pre-Generated Paths (Routes)
+- Dynamic pages ([id].js etc) don't just need data, also need to know which [id] values will be available
+- Multiple concrete [id] page instances (e.g. id = 1, id = 2, etc) are pre-generated
+- export async function getStaticPaths() {...}
