@@ -3,6 +3,10 @@ import EventSearch from '@/components/events/EventSearch';
 import { getAllEvents } from '@/data/dummy';
 import { useRouter } from 'next/router';
 
+/**
+ * Home page for the route - /events
+ */
+
 function Events() {
   const events = getAllEvents();
   const router = useRouter();

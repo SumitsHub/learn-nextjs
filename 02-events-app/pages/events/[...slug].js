@@ -4,6 +4,10 @@ import ResultsTitle from '@/components/events/ResultTitle';
 import { getFilteredEvents } from '@/data/dummy';
 import { useRouter } from 'next/router';
 
+/**
+ * Example Page for catch-all route
+ */
+
 function FilteredEvents() {
   const router = useRouter();
   const filterData = router.query.slug;
