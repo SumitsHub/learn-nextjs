@@ -75,3 +75,22 @@ export async function getStaticProps() {
 - Dynamic pages ([id].js etc) don't just need data, also need to know which [id] values will be available
 - Multiple concrete [id] page instances (e.g. id = 1, id = 2, etc) are pre-generated
 - export async function getStaticPaths() {...}
+
+### getStaticPaths
+- required for dynamic routes
+- Example for [productId].js file -
+
+```js
+export async function getStaticPaths() {
+  return {
+    paths: [
+      { params: { productId: '1' } },
+      { params: { productId: '2' } },
+      { params: { productId: '3' } },
+      { params: { productId: '4' } },
+    ],
+    fallback: false,
+  };
+}
+
+```
