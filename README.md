@@ -1,5 +1,11 @@
 # Next.js
 
+
+## next commands
+- npm run dev -> start the developments server
+- npm run build -> create production ready build
+- npm run start -> serve production build
+
 ## Key Features
 - Server Side Rendering
   - automatic page pre-rendering: Great for SEO and inital load
