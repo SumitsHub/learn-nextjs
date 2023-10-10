@@ -1,4 +1,6 @@
-import Link from 'next/link';
+import Button from '../common/Button';
+import ArrowRightIcon from '../icons/ArrowRight';
+
 // USing css modules
 import styles from './EventItem.module.css';
 
@@ -25,7 +27,12 @@ function EventItem(props) {
           </div>
         </div>
         <div className={styles.actions}>
-          <Link href={`/events/${id}`}>Explore Event</Link>
+          <Button link={`/events/${id}`}>
+            <span>Explore Event</span>
+            <span className={styles.icon}>
+              <ArrowRightIcon />
+            </span>
+          </Button>
         </div>
       </div>
     </li>
