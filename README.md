@@ -20,3 +20,17 @@
   - npx create-next-app@latest
   - kept all option 'No' asked by the command
   - not using App Router
+
+
+
+### 02-events-app
+
+
+
+#### Page Pre-Rendering & Data Fetching
+- Static Generation
+  - Pre-generate a page (with data prepared on the server-side) during build time
+  - Pages are prepared ahead of time and can be cached by the server/CDN serving the app
+  - export async function getStaticProps(context) { ... server side code }
+  - Next JS pre-renders static file by default
+- Server Side Rendering
